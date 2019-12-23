@@ -1,0 +1,8 @@
+MariaDB [tugas_12_mysql]> DROP VIEW IF EXISTS tugas_12_mysql.nilai_ipk, tugas_12_mysql.nilai_ipk_format;
+Query OK, 0 rows affected (0.004 sec)
+
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk;
+ERROR 1146 (42S02): Table 'tugas_12_mysql.nilai_ipk' doesn't exist
+
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk_format;
+ERROR 1146 (42S02): Table 'tugas_12_mysql.nilai_ipk_format' doesn't exist

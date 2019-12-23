@@ -1,0 +1,29 @@
+MariaDB [tugas_12_mysql]> INSERT INTO nilai_mahasiswa VALUES
+    -> ('17090150', 'Andika Andriana', 3.15, 3.16, 3.17);
+Query OK, 1 row affected (0.082 sec)
+
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk;
++----------+------------------+------+
+| nim      | nama             | IPK  |
++----------+------------------+------+
+| 17080305 | Rina Kumala Sari | 3.23 |
+| 17090113 | Riana Putria     | 3.18 |
+| 17090150 | Andika Andriana  | 3.16 |
+| 17090308 | Christine Wijaya | 3.37 |
+| 17140119 | Sandri Fatmala   | 2.49 |
+| 17140143 | Rudi Permana     | 2.97 |
++----------+------------------+------+
+6 rows in set (0.001 sec)
+
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk_format;
++--------------------------+
+| Nama dan IPK             |
++--------------------------+
+| Christine Wijaya (3.37)  |
+| Rina Kumala Sari (3.23)  |
+| Riana Putria (3.18)      |
+| Andika Andriana (3.16)   |
+| Rudi Permana (2.97)      |
+| Sandri Fatmala (2.49)    |
++--------------------------+
+6 rows in set (0.001 sec)

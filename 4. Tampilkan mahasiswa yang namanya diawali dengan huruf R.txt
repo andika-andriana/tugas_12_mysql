@@ -1,0 +1,23 @@
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk_format;
++--------------------------+
+| Nama dan IPK             |
++--------------------------+
+| Christine Wijaya (3.37)  |
+| Rina Kumala Sari (3.23)  |
+| Riana Putria (3.18)      |
+| Andika Andriana (3.16)   |
+| Rudi Permana (2.97)      |
+| Sandri Fatmala (2.49)    |
++--------------------------+
+6 rows in set (0.001 sec)
+
+MariaDB [tugas_12_mysql]> SELECT * FROM nilai_ipk_format
+    -> WHERE `Nama dan IPK` LIKE 'R%';
++--------------------------+
+| Nama dan IPK             |
++--------------------------+
+| Rina Kumala Sari (3.23)  |
+| Riana Putria (3.18)      |
+| Rudi Permana (2.97)      |
++--------------------------+
+3 rows in set (0.001 sec)
